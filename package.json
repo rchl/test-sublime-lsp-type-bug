@@ -1,0 +1,20 @@
+{
+  "name": "example-options-api-minimal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "nuxt": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "latest",
+    "@nuxtjs/eslint-config-typescript": "^1.0.2",
+    "typescript": "^3.8.2"
+  }
+}
